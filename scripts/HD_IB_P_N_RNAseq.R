@@ -1,7 +1,7 @@
 ############################################################
 ## IB+  vs IB- — Transposable Element (TE) Analysis
 ############################################################
-setwd("D:/LAB/Walaa_RNA_seqD/ib+_ib-")
+setwd("")
 ## ---------------------------
 ## 1. Load packages
 ## ---------------------------
@@ -17,8 +17,8 @@ library(forcats)
 ## 2. Paths and basic settings
 ## ---------------------------
 # Folder that contains the *.cntTable files (ATF3 experiment)
-base_dir<- "D:/LAB/Walaa_RNA_seqD/ib+_ib-"
-base_dir <-"D:/LAB/Walaa_RNA_seq/ib+_ib-"
+base_dir<- ""
+base_dir <-""
 
 # Output directory for DEA results and plots
 output_dir <- file.path(base_dir, "DEA")
