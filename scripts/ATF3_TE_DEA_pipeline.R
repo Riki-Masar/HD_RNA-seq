@@ -17,7 +17,7 @@ library(forcats)
 ## 2. Paths and basic settings
 ## ---------------------------
 # Folder that contains the *.cntTable files (ATF3 experiment)
-base_dir  <- "D:/LAB/Walaa_RNA_seq/atf3"
+base_dir  <- ""
 
 # Output directory for DEA results and plots
 output_dir <- file.path(base_dir, "DEA")
